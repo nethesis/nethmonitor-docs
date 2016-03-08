@@ -1,5 +1,8 @@
 .. |product| replace:: NethMonitor
+.. |product_nethserver| replace:: NethServer Enterprise
+.. |core| replace:: Nagios
 .. |adagios| replace:: Adagios
+.. |wizard| replace:: Wizard
 .. |OCS| replace:: OCS Inventory NG
 .. |probe| replace:: Sonda
 .. |product_nethserver| replace:: NethServer Enterprise
