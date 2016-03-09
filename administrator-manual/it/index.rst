@@ -23,90 +23,13 @@ NethMonitor è disponibile solo per i rivenditori che hanno stipulato il contrat
     * `Supporto <http://helpdesk.nethesis.it>`_
 
 
-Introduzione
-------------
+Installazione
+-------------
 
 .. toctree::
    :maxdepth: 2
   
-   intro
-   support
-
-
-Server
-------
-
-.. toctree::
-   :maxdepth: 2
-
    installation
-   configuration
-   services_configuration
-   customer_card
-
-Client
-------
-
-.. toctree::
-   :maxdepth: 2
- 
-   client
-
-Firefox
--------
-
-.. toctree::
-   :maxdepth: 2
-
-   firefox
-
-Nethifier
----------
-
-.. toctree::
-   :maxdepth: 2
-
-   nethifier
-
-Click2Call Windows
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   windows_c2c
-
-App Mobile
-----------
-
-.. toctree::
-      :maxdepth: 2
-
-   app_mobile
-
-Pannello operatore
-------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   operator
-
-Supervisore Code
-----------------
-
-.. toctree::
-   :maxdepth: 2
-
-   queueman
-
-Sviluppo
---------
-
-.. toctree::
-   :maxdepth: 2
-
-   development
 
 Appendice
 ---------
