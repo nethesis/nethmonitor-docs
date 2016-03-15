@@ -23,4 +23,4 @@ Tale operazione va eseguita tramite :dfn:`Centro Servizi`, accessibile con la co
 Una volta eseguito l'accesso al *Centro Servizi*, scegliere il menu :dfn:`Amministrazione` quindi spostarsi nella scheda :dfn:`Nethmonitor` ed aggiungere il server nella lista delle macchine abilitate ad ospitare |product| cliccando sul pulsante *Aggiungi* e fornendo tutti i parametri richiesti.
 
 
-Terminate le operazioni preliminari, sarà possibile installare |product| attraverso l'apposita voce presnete nel :dfn:`Software Center`.
+Terminate le operazioni preliminari, sarà possibile installare |product| attraverso l'apposita voce presente nel :dfn:`Software Center`.
