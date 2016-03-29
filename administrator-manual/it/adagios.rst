@@ -1,7 +1,7 @@
 .. index::
-   single: adagios
+   single: Adagios
 
-.. _accesso-section:
+.. _adagios-section:
 
 =========
 |adagios|
@@ -10,7 +10,6 @@
 
 Introduzione
 ============
-
 
 `|adagios| <http://adagios.org/>`_ è un'interfaccia di configurazione web based per :index:`|core|`
 costruita per essere semplice ed intuitiva, al fine di nascondere buona parte della complessità di
@@ -35,9 +34,11 @@ di status e di configurazione degli host monitorati.
 Accesso
 =======
 
-Per accedere all':dfn:`interfaccia web` |adagios| digitando nella barra degli indirizzi 
-``https://a.b.c.d/adagios`` oppure ``https://server/adagios`` dove *a.b.c.d* e *server* sono rispettivamente
-l'indirizzo IP ed il nome del server impostati in fase di installazione..
+Per accedere all':dfn:`interfaccia web` di |adagios| è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
+della *Dashboard* di |parent_product|.
+E' altrimenti possibile accedere direttamente all'applicativo senza passare per il *server-manager* digitando nella barra
+degli indirizzi ``https://a.b.c.d/adagios`` oppure ``https://server/adagios`` dove *a.b.c.d* e *server* sono 
+rispettivamente l'indirizzo IP ed il nome del server impostati in fase di installazione.
 
 
 Il Server Manager utilizza certificati SSL auto-firmati, sarà quindi necessario

@@ -30,7 +30,14 @@ Installazione
    :maxdepth: 2
   
    installation
-   access
+   monitoringtypes
+
+Adagios
+-------
+
+.. toctree::
+   :maxdepth: 2
+
 
 Appendice
 ---------
