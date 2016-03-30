@@ -6,7 +6,7 @@ Documentazione |product|
 .. image:: ../_static/logo.png
    :alt: |product|
 
-|product| è il modulo di |product_nethserver| che consente il monitoraggio di hardware, reti e servizi. Il nucleo di |product| è :dfn:`Nagios`, corredato da numerosi add-on che consentono una semplice e intuitiva configurazione attraverso un apposito pannello web.
+|product| è il modulo di |parent_product| che consente il monitoraggio di hardware, reti e servizi. Il nucleo di |product| è :dfn:`Nagios`, corredato da numerosi add-on che consentono una semplice e intuitiva configurazione attraverso un apposito pannello web.
 
 |product| è composto da quattro software principali:
 
@@ -38,6 +38,31 @@ Adagios
 .. toctree::
    :maxdepth: 2
 
+   adagios.rst
+
+OCS Inventory NG
+----------------
+
+.. toctree::
+   :maxdepth: 2
+
+   ocs.rst
+
+Wizard
+------
+
+.. toctree::
+   :maxdepth: 2
+
+   wizard.rst
+
+Sonde
+-----
+
+.. toctree::
+   :maxdepth: 2
+
+   curiosity.rst
 
 Appendice
 ---------

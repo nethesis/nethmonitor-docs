@@ -53,3 +53,10 @@ Login
 
 Per accedere all'interfaccia è necessario utilizzare le credenziali di ``admin`` che, di default, non sono attive.
 Per attivare l'utente seguire le indicazioni riportate in `questa pagina <http://nethserver.docs.nethesis.it/it/latest/accounts.html#admin-user-section>`_ del manuale di |parent_product|.
+
+.. _ocs-features:
+
+Funzionalità
+============
+
+

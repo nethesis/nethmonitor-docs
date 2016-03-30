@@ -14,7 +14,7 @@ Requisiti minimi
 |product| è uno dei tanti moduli installabile su base |parent_product|, pertanto per implementarlo è necessario 
 innazitutto installare e registare |parent_product|.
 Per i requisiti minimi, la compatibilità hardware e le modalità di installazione e registrazione fare riferimento 
-alla documentazione specifica (si veda `qui <http://nethservice.docs.nethesis.it/it/latest/installation.html>`_  e `qui <http://nethservice.docs.nethesis.it/it/latest/registration.html>`_).
+alla documentazione specifica (si veda `qui per l'installazione <http://nethservice.docs.nethesis.it/it/latest/installation.html>`_  e `qui per la registrazione <http://nethservice.docs.nethesis.it/it/latest/registration.html>`_).
 
 .. _qualification_section:
 
@@ -36,7 +36,7 @@ a termine la procedura, sarò necessario fornire tutti gli altri parametri richi
 * :dfn:`HTTPS Port`: è la porta https sulla quale si può contattare il |product|, normalmente è la **443**;
 * :dfn:`Note`: è un campo descrittivo a disposizione dell'amministratore.
 
-Una volta salvata la configurazione il |partent_product| avrà tutti i prerequisiti necessari ad ospitare una istanza di |product|.
+Una volta salvata la configurazione il |parent_product| avrà tutti i prerequisiti necessari ad ospitare una istanza di |product|.
 
 .. note:: E' indispensabile sincerarsi che il |parent_product| sia raggiungibile sulle porte HTTPS ed NSCA configurate!
 
