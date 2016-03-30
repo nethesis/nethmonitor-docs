@@ -22,7 +22,7 @@ e di arrichire le sue funzionalità nella raccolta dati attraverso l'implementaz
 plugin.
 
 
-**Funzionalità:**
+**Caratteristiche principali:**
 
 * raccolta caratteristiche hw e sw degli host inventariati
 * potente modulo di deploy massivo per la distribuzione di software e script

@@ -17,7 +17,7 @@ due specifiche esigenze:
 * arrichire le funzionalità del modulo di monitoraggio, |adagios|;
 * consentire il colloquio tra |ocs|, il modulo deputato all'invntario degli asset IT, e la parte di monitoraggio.
 
-**Funzionalità:**
+**Caratteristiche principali:**
 
 Attraverso il modulo :index:`|wizard|` è possibile:
 

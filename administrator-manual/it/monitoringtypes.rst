@@ -1,8 +1,6 @@
 .. index::
    single: tipi di monitoraggio
 
-.. _activemonitoring-section
-.. _passivemonitoring-section
 
 ==============================
 Monitoraggio tramite |product|
@@ -13,6 +11,7 @@ e quello in :dfn:`modalità passiva`.
 Entrambi prevedono l'installazione sull'host monitorato di un software detto :dfn:`agent` ma il monitoraggio attivo consente
 in alcuni casi di poter effettuare dei controlli senza la necessità di installare alcun software (:dfn:`modalità agentless`).
 
+.. _activemonitoring-section:
 
 Monitoraggio attivo
 ===================
@@ -48,6 +47,8 @@ La modalità attiva funziona correttamente se sono rispettate le seguenti condiz
 
 .. note:: Tutti gli host monitorati attivamente devono essere raggiungibili dal server NethMonitor alla porta TCP **5666**
 
+
+.. _passivemonitoring-section:
 
 Monitoraggio passivo
 ====================
