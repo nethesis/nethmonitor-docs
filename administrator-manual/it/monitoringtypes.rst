@@ -1,6 +1,7 @@
 .. index::
-   single: tipi di monitoraggio
+   single: Tipi di monitoraggio
 
+.. _monitoringtype-section:
 
 ==============================
 Monitoraggio tramite |product|
@@ -37,8 +38,9 @@ In generale, questo tipo di monitoraggio è utilizzato per controllare la raggiu
 * Stampanti
 * Switch 
 
-La modalità :index:`attiva agentfull` prevede l'adozione sull'host monitorato di un :index:`agent`, un software che fa da tramite nelle comunicazioni
-tra l'host ed il |product|: il server si collega all'host monitorato e chiede all'agent di eseguire i controlli e di inviargli i risultati.
+La modalità :index:`attiva agentfull` prevede l'adozione sull'host monitorato di un :index:`agent`, un software che fa da tramite 
+nelle comunicazioni tra l'host ed il |product|: il server si collega all'host monitorato e chiede all'agent di eseguire i controlli 
+e di inviargli i risultati.
 Tale modalità è la più affidabile ed è consigliata per gli host nella rete locale. 
 La modalità attiva funziona correttamente se sono rispettate le seguenti condizioni:
 

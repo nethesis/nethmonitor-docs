@@ -1,5 +1,5 @@
 .. index::
-   single: Installazione
+   single: installazione
    single: abilitazione
 
 .. _installation-section:

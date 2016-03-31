@@ -3,23 +3,23 @@
 
 .. _adagios-section:
 
-=========
-|adagios|
-=========
+=======
+Adagios
+=======
 
 
 Introduzione
 ============
 
-`|adagios| <http://adagios.org/>`_ è un'interfaccia di configurazione web based per :index:`|core|`
+`Adagios <http://adagios.org/>`_ è un'interfaccia di configurazione web based per :index:`|core|`
 costruita per essere semplice ed intuitiva, al fine di nascondere buona parte della complessità di
 Nagios "sotto al cofano".
-:index:`|adagios|` fornisce un'interfaccia di status e management molto completa del tutto alternativa 
+:index:`Adagios` fornisce un'interfaccia di status e management molto completa del tutto alternativa 
 a quella nativa di Nagios e mette a disposizione molteplici interfacce rest per l'accesso ai dati 
 di status e di configurazione degli host monitorati.
-L'interfaccia di |adagios| funge da collettore per le informazioni di monitoraggio, consentendo di 
+L'interfaccia di Adagios funge da collettore per le informazioni di monitoraggio, consentendo di 
 visualizzare e gestire in modo semplice ed intuitivo gli host monitorati.
-Attraverso |adagios| è possibile definire tutti controlli di tipo :index:`*attivo*` (per approfondimenti 
+Attraverso Adagios è possibile definire tutti controlli di tipo :index:`*attivo*` (per approfondimenti 
 si rimanda alla sezione :ref:`activemonitoring-section`).
 
 
@@ -38,7 +38,7 @@ si rimanda alla sezione :ref:`activemonitoring-section`).
 Accesso
 =======
 
-Per accedere all':dfn:`interfaccia web` di |adagios| è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
+Per accedere all':dfn:`interfaccia web` di Adagios è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
 della *Dashboard* di |parent_product|.
 E' altrimenti possibile accedere direttamente all'applicativo senza passare per il *server-manager* digitando nella barra
 degli indirizzi ``https://a.b.c.d/adagios`` oppure ``https://server/adagios`` dove *a.b.c.d* e *server* sono 
@@ -71,7 +71,7 @@ a livello globale ma anche filtrandole in modo più puntuale in base agli host o
 Okconfig
 --------
 
-Il vero cuore di |adagios|, :dfn:`Okconfig` è un potente motore di configurazione di host e servizi.
+Il vero cuore di Adagios, :dfn:`Okconfig` è un potente motore di configurazione di host e servizi.
 index:`Okconfig` mette a disposizione un corposo numero di :dfn:`template di configurazione` già pronti all'utilizzo 
 per implementare il monitoraggio in modalità :dfn:`attiva` dei dispositivi.
 *Okconfig* permette inoltre di effettuare una scansione dei dispositivi presenti in rete attraverso la funzione di 
@@ -95,7 +95,7 @@ check command di monitoraggio.
 Nagios
 ------
 
-Il menu :dfn:`Nagios` consente di accedere all'interfaccia nativa del core di |adagios|.
+Il menu :dfn:`Nagios` consente di accedere all'interfaccia nativa del core di Adagios.
 
 
 Wizard
