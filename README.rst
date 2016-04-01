@@ -24,7 +24,7 @@ directly on GitHub:
 * When you're done, simply create a new pull request
 * A new automatic build is launched after the pull request is merged by a developer
 
-You can also use the traditional way by cloning nethcti-docs
+You can also use the traditional way by cloning nethmonitor-docs
 repository (https://github.com/nethesis/nethmonitor-docs) to your
 machine and sending patches to the mailing list.
 
