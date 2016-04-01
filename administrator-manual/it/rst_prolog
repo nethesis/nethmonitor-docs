@@ -1,0 +1,8 @@
+.. |product| replace:: NethMonitor
+.. |parent_product| replace:: NethServer Enterprise
+.. |core| replace:: Nagios
+.. |adagios| replace:: Adagios
+.. |wizard| replace:: Wizard
+.. |ocs| replace:: OCS Inventory NG
+.. |probe| replace:: Curiosity
+.. |register_link| replace:: `register.nethesis.it <https://register.nethesis.it/>`__

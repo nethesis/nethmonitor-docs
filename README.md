@@ -1,2 +1,0 @@
-# nethmonitor-docs
-NethMonitor documentation
