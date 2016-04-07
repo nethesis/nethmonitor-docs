@@ -5,7 +5,7 @@
 .. _probe-section:
 
 ========================
-Sonde hardware Curiosity
+Sonde remote Curiosity
 ========================
 
 
@@ -22,8 +22,10 @@ risultato dell'attività di discovery.
 Attraverso l'interfaccia :dfn:`Wizard` è possibile inviare alla sonda le configurazioni di monitoraggio 
 predisposte centralmente per abilitare il controllo dei nodi della rete remota.
 
-.. note:: Le sonde |probe| sono in grado di gestire unicamente controlli di tipo attivo agentless
+.. note:: Le sonde sono in grado di gestire **unicamente** controlli di tipo **attivo agentless**.
 
+
+.. _probe-qualification:
 
 Abilitazione sonde
 ==================

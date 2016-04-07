@@ -60,6 +60,8 @@ Per attivare l'utente seguire le indicazioni riportate in `questa pagina <http:/
 Funzionalità
 ============
 
+.. _status-section:
+
 Status
 ------
 
@@ -68,17 +70,50 @@ e gestire gli allarmi attivi sui nodi controllati.
 Le varie visualizzazioni preconfigurate nella pagina di :index:`Status` consentono di consultare le informazioni 
 a livello globale ma anche filtrandole in modo più puntuale in base agli host od ai servizi monitorati.
 
+
+Status Overview / Open Problems / All Problems
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Attraverso quete sezioni il sistema fornisce in diverse rappresentazioni lo stato degli :index:`allarmi attivi` non gestiti.
+
+
+Hosts / Services
+^^^^^^^^^^^^^^^^
+
+Questi sinottici mettono a disposizione una visualizzazione più approfonidita di :index:`host` e index:`servizi` monitorati,
+consentendo di filtrarli con una potente funzione di :dfn:`ricerca globale`.
+
+
+Contacts
+^^^^^^^^
+
+In questa sezione è possibile specificare l':dfn:`indirizzo e-mail` a cui il sistema invierà i messaggi di allarme relativi ad host e servizi.
+Questo parametro è modificabile anche dall'interfaccia :ref:`servnethmon-section` del :ref:`wizard-section`.
+
+Network Parents
+^^^^^^^^^^^^^^^
+
+Attraverso questa sezione è possibile definire una :index:`relazione gerarchica` tra i nodi monitorati attraverso |product|.
+Definire un nodo come :index:`parent` di un altro conferisce interdipendenza nella gestione degli allarmi relativi all'host configurato 
+ed all'apparato definito come suo genitore.
+Se il genitore diventa irraggiungibile, lo stato dell'host ad esso collegato viene automaticamente posto in uno stato :dfn:`Unknown`:
+questo accade proprio in virtù della relazione gerarchica stabilita.
+Si pensi ad esempio ad un server collegato ad uno switch: nel momento in cui lo switch non è più raggiungibile non è possibile nemmeno 
+stabilire lo stato dei servizi del server ad esso collegato.
+
+.. _okconfig-section:
+
 Okconfig
 --------
 
 Il vero cuore di Adagios, :dfn:`Okconfig` è un potente motore di configurazione di host e servizi.
-index:`Okconfig` mette a disposizione un corposo numero di :dfn:`template di configurazione` già pronti all'utilizzo 
+:index:`Okconfig` mette a disposizione un corposo numero di :dfn:`template di configurazione` già pronti all'utilizzo 
 per implementare il monitoraggio in modalità :dfn:`attiva` dei dispositivi.
 *Okconfig* permette inoltre di effettuare una scansione dei dispositivi presenti in rete attraverso la funzione di 
 :index:`autodiscovery` che consente di sottoporre agevolmente nuovi host al monitoraggio.
 Inoltre, il modulo consente di generare ed effettuare l'installazione remota degli :index:`agent software` necessari 
 per il monitoring dei sistemi più evoluti.
-L'estrema flessibilità del modulo consente poi una agevole customizzazione dei tempalte di monitoraggio (`si veda qui <https://github.com/opinkerfi/adagios/wiki/Customising-okconfig-templates-to-your-needs>`).
+L'estrema flessibilità del modulo consente poi una agevole customizzazione dei tempalte di monitoraggio (`si veda qui <https://github.com/opinkerfi/adagios/wiki/Customising-okconfig-templates-to-your-needs>`_).
 
 Configure
 ---------
