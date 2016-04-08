@@ -10,7 +10,7 @@ Documentazione |product|
 
 |product| è composto da quattro software principali:
 
-* :index:`Nagios`: il demone responsabile del monitoraggio degli host
+* *Nagios*: il demone responsabile del monitoraggio degli host
 * :dfn:`Adagios`: il frontend che consente il controllo dello stato degli host monitorati e la gestione degli host monitorati attivamente
 * :dfn:`Wizard`: lo strumento per la gestione ed il controllo delle sonde hardware e degli host monitorati passivamente
 * :dfn:`OCS Inventory`: lo strumento per la gestione dell'inventario IT degli asset aziendali
