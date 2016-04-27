@@ -110,7 +110,7 @@ crearne di personalizzati.
 Sonde
 -----
 
-Il menu :dfn:`Sonde` consente di gestire le sonde remote collegate al |product| come illustrato nella sezione :ref:`probe-qualification`
+Il menu :dfn:`Sonde` consente di gestire le sonde remote collegate al |product| come illustrato nella sezione :ref:`probe-activation`
 contenuta nella pagina :ref:`probe-section`.
 
 Le nuove sonde collegate ad un |product| vengono elencate in questa pagina.
