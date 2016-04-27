@@ -24,6 +24,8 @@ predisposte centralmente per abilitare il controllo dei nodi della rete remota.
 
 .. note:: Le sonde sono in grado di gestire **unicamente** controlli di tipo **attivo agentless**.
 
+.. note:: Le sonde sono utilizzabili unicamente a fine di monitoraggio, **non sono in grado di effettuare
+          operazioni di inventario**!
 
 .. _probe-activation:
 
@@ -122,10 +124,10 @@ Definizione diretta nuovo host dietro sonda
 -------------------------------------------
 
 Resta in ogni caso possibile definire manualmente un host da monitorare attraverso sonda remota inserendo
-tutti i necessari parametri richiesti nella finestra di *inserimento nuovo sistema*.
+tutti i necessari parametri richiesti nella finestra di :dfn:`Inserimento nuovo sistema`.
 Le attenzioni che si dovranno avere sono:
 
-* di scegliere come dispositivo *Genitore* dell'host da inserire la sonda dietro cui si trova;
+* di scegliere come dispositivo *Genitore* dell'host da inserire **la sonda dietro cui si trova l'host stesso**;
 * di selezionare la corretta :dfn:`tipologia` di host tra quelle per il :index:`monitoraggio via sonda`;
 * di selezionate le :dfn:`classi di servizio` di interesse.
 
