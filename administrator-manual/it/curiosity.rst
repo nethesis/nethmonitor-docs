@@ -4,11 +4,6 @@
 
 .. _probe-section:
 
-========================
-Sonde remote Curiosity
-========================
-
-
 Introduzione
 ============
 
@@ -35,28 +30,29 @@ Attivazione sonde
 Per poter essere utilizzate, le :index:`sonde remote` :index:`Curiosity` necessitano di essere attivate e 
 collegate ad una istanza di |product| attraverso una semplice procedura di abilitazione.
 
-Ad ogni sonda è associato un :dfn:`hash`, un codice costituito da 16 alfanumerici - diviso in due gruppi
-da 8 per facilitarne la leggibilità - (esempio: ``A1B2C3D4-5E6F7G8H``) che viene gerenrato in fase di 
-assemblaggio della sonda e che la caratterizza :dfn:`univocamente`: non esisteono due sonde con il medesimo :index:`hash`.
+Ad ogni sonda è associato un :dfn:`serial number`, un codice costituito da *16 alfanumerici* divisi in *due gruppi
+da 8* per facilitarne la leggibilità (esempio: ``A1B2C3D4-5E6F7G8H``), che viene gerenrato in fase di 
+assemblaggio della sonda e che la caratterizza :dfn:`univocamente`: non esisteono due sonde con il medesimo :index:`serial number`.
 
-L'*hash* è riportato in tre posti distinti:
+Il *serial number* è riportato in quattro posti distinti:
 
 * sull'imballaggio della :index:`sonda`;
+* sul case della sonda;
 * nel :dfn:`QRCode` visualizzabile collegando un monitor ad una sonda **non registrata**;
 * in colore verde nel banner di login della console visulalizzabile collegando un monitor ad una sonda **registrata**.
 
 Il codice alfanumerico univoco è indispensabile per attivare la sonda e metterla in comunicazione con il
-|product| che fungerà da :dfn:`parent` della sonda, cioè attraverso cui la sonda potrà essere controllata
+|product| che fungerà da :dfn:`genitore` della sonda, cioè attraverso cui la sonda potrà essere controllata
 e gestita.
 Una volta entrati in possesso della sonda si dovrà accedere al :dfn:`Centro Servizi`, recarsi nel pannello
 :dfn:`Amministrazione`, scheda :dfn:`Nethmonitor`.
 Nella sezione :dfn:`Sonde Libere` sarà possibile inserire la nuova sonda inserendo:
 
 * :dfn:`Etichetta`: una stinga descrittiva;
-* :dfn:`Code`: il codice *hash*;
+* :dfn:`Code`: il *serial number* privato del carattere separatore ``-``;
 * :dfn:`Note`: un campo libero.
 
-.. warning:: L'*hash* andrà indicato nel campo *Code* **senza** il carattere separatore, inserendo tutti e 16 gli
+.. warning:: Il *serial number* andrà indicato nel campo *Code* **senza** il carattere separatore, inserendo tutti e 16 gli
              alfanumerici uno di seguito all'altro.
              In caso contrario l'operazione **genererà un errore**!
 
@@ -66,7 +62,7 @@ Spostandosi nella :index:`sezione Nethmonitor` della stessa pagina verranno visu
 attivati precedentemente con la procedura di :ref:`qualification_section`.
 Ciascun |product| in elenco avrà una icona a forma di simbolo ``+``: cliccando sull'icona si aprirà
 una finestra pop-up  attraverso cui sarà possibile :index:`associare la sonda` al |product| che fungerà
-da *parent*.
+da *genitore*.
 
 
 .. _probe-management:
@@ -87,7 +83,7 @@ L'azione andrà confermata nel successivo box che si aprirà in pop-up che conse
 informazioni relative alla sonda in un campo :dfn:`note`.
 
 Il sistema richiederà di ricaricare i file di configurazione di Nagios e di riavviarne i relativi servizi attraverso 
-un :dfn:`banner` informativo di colore giallo che comparirà in alto nell'interfaccia del *Wizard*: da quel momento
+un :dfn:`ToDo` informativo di colore giallo che comparirà in alto nell'interfaccia del *Wizard*: da quel momento
 sarà presente sia nella lista dei nodi controllati dal *Wizard* (menu :index:`Visualizza lista` della sezione *Sistemi*)
 che tra gli *host* del forntend Adagios un nodo relativo alla sonda stessa che permettrà di verificare la raggiungibilità
 della sonda appena attivata.
@@ -130,4 +126,5 @@ Le attenzioni che si dovranno avere sono:
 * di scegliere come dispositivo *Genitore* dell'host da inserire **la sonda dietro cui si trova l'host stesso**;
 * di selezionare la corretta :dfn:`tipologia` di host tra quelle per il :index:`monitoraggio via sonda`;
 * di selezionate le :dfn:`classi di servizio` di interesse.
+
 

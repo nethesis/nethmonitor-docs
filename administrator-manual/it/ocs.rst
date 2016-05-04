@@ -3,11 +3,6 @@
 
 .. _ocs-section:
 
-================
-OCS Inventory NG
-================
-
-
 Introduzione
 ============
 
@@ -100,4 +95,30 @@ OCS Inventory contempla un nutrito numero di :dfn:`plugins`, dei veri e propri m
 sul core di inventorying per ampliarne le capacità.
 Tutti i riferimenti sono disponibile nella `documentazione ufficiale <http://wiki.ocsinventory-ng.org/index.php/Plugins:version2>`_.
 
+.. _ocs-plugin:
+
+Agent software
+==============
+
+*OCS Inventory NG* lavora esclusivamente attraverso l'utilizzo di :dfn:`agent software`: le informazioni di inventario
+vengono raccolte dall'agent che provvede ad inviarle al server per popolare i database.
+*OCS Inventory NG* mette a disposizione un folto numero di :index:`agent software`, riuscendo a coprire particamente tutte le piattaforme
+software attualmente diffuse.
+
+Gli agent possono essere scaricati direttamente dalla sezione dedicata sul `sito del progetto <http://www.ocsinventory-ng.org/en/#download-en>`_,
+l'installazione è piuttosto semplice: l'unico dato richiesto è l'url del server *OCS Inventory NG*.
+L'url può essere esplicitata utilizzando l'fqdn della macchina (se risolvibile):
+
+``http://server.dominio.ext/ocsinventory``
+
+o facendo riferimento direttamente all'ip del server:
+
+``http://a.b.c.d/ocsinventory``
+
+Non sarà necessario fornire alcuna altra informazione in caso di configurazione in rete locale.
+
+L'agent verrà eseguito come servizio sulla macchina client e si occuperà di inviare *ad ogni accesione* od *una volta la giorno*
+l'inventory dell'host su cui è attivo al server di riferimento.
+
+Per ulteriori informazioni si rimanda alla `documentazione del progetto <http://wiki.ocsinventory-ng.org/index.php/Documentation:Main#Basic_documentation>`_.
 

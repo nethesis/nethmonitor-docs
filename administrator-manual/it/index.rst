@@ -30,6 +30,13 @@ Installazione
    :maxdepth: 2
   
    installation
+
+Monitoraggio tramite |product|
+------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
    monitoringtypes
 
 Adagios
@@ -56,8 +63,8 @@ Wizard
 
    wizard.rst
 
-Sonde
------
+Sonde remote Curiosity
+----------------------
 
 .. toctree::
    :maxdepth: 2

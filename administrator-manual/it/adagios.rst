@@ -3,11 +3,6 @@
 
 .. _adagios-section:
 
-=======
-Adagios
-=======
-
-
 Introduzione
 ============
 

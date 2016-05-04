@@ -3,11 +3,6 @@
 
 .. _wizard-section:
 
-======
-Wizard
-======
-
-
 Introduzione
 ============
 
