@@ -4,12 +4,11 @@
 
 .. _installation-section:
 
-=============
 Installazione
 =============
 
 Requisiti minimi
-================
+----------------
 
 |product| è uno dei tanti moduli installabile su base |parent_product|, pertanto per implementarlo è necessario 
 innazitutto installare e registare |parent_product|.
@@ -19,7 +18,7 @@ alla documentazione specifica (si veda `qui per l'installazione <http://nethserv
 .. _qualification_section:
 
 Abilitazione
-============
+------------
 
 Terminate l'installazione e la registrazione della licenza di |parent_product|, prima di procedere all'installazione 
 del pacchetto |product| si dovrà :index:`abilitare` il server ad ospitare il sistema di monitoraggio.

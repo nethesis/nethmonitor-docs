@@ -3,7 +3,6 @@
 
 .. _monitoringtype-section:
 
-==============================
 Monitoraggio tramite |product|
 ==============================
 
@@ -15,7 +14,7 @@ in alcuni casi di poter effettuare dei controlli senza la necessità di installa
 .. _activemonitoring-section:
 
 Monitoraggio attivo
-===================
+-------------------
 
 Nella :index:`modalità attiva` è il server |product| che si collega all'host monitorato per eseguire i controlli.
 Tale modalità è la più affidabile ed è consigliata per gli host nella rete locale.
@@ -53,7 +52,7 @@ La modalità attiva funziona correttamente se sono rispettate le seguenti condiz
 .. _passivemonitoring-section:
 
 Monitoraggio passivo
-====================
+--------------------
 
 Nella :index:`modalità passiva` l'agent installato sull'host monitorato raccoglie autonomamamente dati sullo stato della macchina e dei servizi ed
 ad intervalli regolari invia i dati raccolti a |product|.
