@@ -3,8 +3,11 @@
 
 .. _adagios-section:
 
-Introduzione
-============
+Adagios
+=======
+
+Introduzione ad Adagios
+-----------------------
 
 `Adagios <http://adagios.org/>`_ è un'interfaccia di configurazione web based per :index:`|core|`
 costruita per essere semplice ed intuitiva, al fine di nascondere buona parte della complessità di
@@ -26,12 +29,12 @@ si rimanda alla sezione :ref:`activemonitoring-section`).
 * installazione remota di agent linux/windows
 * interfaccia di visualizzazione di Status moderna ed intuitiva
 * backup dei dati di Adagios integrato nella procedura di backup di |parent_product|
-* interfacce rest per lo status di host e servizi e per visualizzzione/modifica della configurazione
+* interfacce rest per lo status di host e servizi e per visualizzazione/modifica della configurazione
 * auditing completo di tutti i cambiamenti effettuati
 
 
 Accesso
-=======
+-------
 
 Per accedere all':dfn:`interfaccia web` di Adagios è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
 della *Dashboard* di |parent_product|.
@@ -45,7 +48,7 @@ accettare esplicitamente tali certificati la prima volta che si accede al server
 La connessione è comunque sicura e cifrata.
 
 Login
------
+^^^^^
 
 Per accedere all'interfaccia è necessario utilizzare le credenziali di ``admin`` che, di default, 
 non sono attive.
@@ -53,12 +56,12 @@ Per attivare l'utente seguire le indicazioni riportate in `questa pagina <http:/
 
 
 Funzionalità
-============
+------------
 
 .. _status-section:
 
 Status
-------
+^^^^^^
 
 L'interfaccia di :dfn:`Status` di |product| mette a disposizione numerosi sinottici e report utili a rilevare
 e gestire gli allarmi attivi sui nodi controllati.
@@ -67,26 +70,26 @@ a livello globale ma anche filtrandole in modo più puntuale in base agli host o
 
 
 Status Overview / Open Problems / All Problems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Attraverso quete sezioni il sistema fornisce in diverse rappresentazioni lo stato degli :index:`allarmi attivi` non gestiti.
 
 
 Hosts / Services
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Questi sinottici mettono a disposizione una visualizzazione più approfonidita di :index:`host` e index:`servizi` monitorati,
 consentendo di filtrarli con una potente funzione di :dfn:`ricerca globale`.
 
 
 Contacts
-^^^^^^^^
+~~~~~~~~
 
 In questa sezione è possibile specificare l':dfn:`indirizzo e-mail` a cui il sistema invierà i messaggi di allarme relativi ad host e servizi.
 Questo parametro è modificabile anche dall'interfaccia :ref:`servnethmon-section` del :ref:`wizard-section`.
 
 Network Parents
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 Attraverso questa sezione è possibile definire una :index:`relazione gerarchica` tra i nodi monitorati attraverso |product|.
 Definire un nodo come :index:`parent` di un altro conferisce interdipendenza nella gestione degli allarmi relativi all'host configurato 
@@ -99,7 +102,7 @@ stabilire lo stato dei servizi del server ad esso collegato.
 .. _okconfig-section:
 
 Okconfig
---------
+^^^^^^^^
 
 Il vero cuore di Adagios, :dfn:`Okconfig` è un potente motore di configurazione di host e servizi.
 :index:`Okconfig` mette a disposizione un corposo numero di :dfn:`template di configurazione` già pronti all'utilizzo 
@@ -111,7 +114,7 @@ per il monitoring dei sistemi più evoluti.
 L'estrema flessibilità del modulo consente poi una agevole customizzazione dei tempalte di monitoraggio (`si veda qui <https://github.com/opinkerfi/adagios/wiki/Customising-okconfig-templates-to-your-needs>`_).
 
 Configure
----------
+^^^^^^^^^
 
 Dal menu :dfn:`Configure` è possibile accedere ai vari aspetti del sistema più a basso livello: il pannello 
 consente di intervenire direttamente sui file di configurazione e tempalte che defibniscono host, servizi e 
@@ -123,13 +126,13 @@ check command di monitoraggio.
 
 
 Nagios
-------
+^^^^^^
 
 Il menu :dfn:`Nagios` consente di accedere all'interfaccia nativa del core di Adagios.
 
 
 Wizard
-------
+^^^^^^
 
 Il menu :dfn:`Wizard` permette di accedere all'interfaccia del modulo :ref:`wizard-section`.
 
