@@ -39,6 +39,10 @@ Una volta salvata la configurazione il |parent_product| avrà tutti i prerequisi
 
 .. note:: E' indispensabile sincerarsi che il |parent_product| sia raggiungibile sulle porte HTTPS ed NSCA configurate!
 
+.. warning:: Un NethServer Enterprise *deve essere definito una ed una sola volta come NethMonitor!* Applicare più
+             configurazioni NethMonitor al medesimo NethServer Enterprise creerebbe delle inconsistenze che 
+             provocherebbero dei problemi di comunicazione con eventuali :ref:`probe-section` o host configurati 
+             per il :ref:`passivemonitoring-section`.
 
 Terminate le operazioni preliminari, sarà possibile installare |product| attraverso l'apposita voce presente nel `Software Center <http://nethserver.docs.nethesis.it/it/latest/packages.html>`_.
 

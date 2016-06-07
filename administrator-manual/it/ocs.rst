@@ -3,8 +3,12 @@
 
 .. _ocs-section:
 
-Introduzione
-============
+
+OCS Inventory NG
+================
+
+Introduzione ad OCS
+-------------------
 
 `OCS Inventory NG <http://www.ocsinventory-ng.org/en/>`_ è un software che consente un'agevole
 raccolta dei dati di inventario degli asset presenti in una infrastruttura IT.
@@ -30,7 +34,7 @@ plugin.
 
 
 Accesso
-=======
+-------
 
 Per accedere all':dfn:`interfaccia web` di OCS Inventory è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
 della *Dashboard* di |parent_product|.
@@ -44,7 +48,7 @@ accettare esplicitamente tali certificati la prima volta che si accede al server
 La connessione è comunque sicura e cifrata.
 
 Login
------
+^^^^^
 
 Per accedere all'interfaccia è necessario utilizzare le credenziali di ``admin`` che, di default, non sono attive.
 Per attivare l'utente seguire le indicazioni riportate in `questa pagina <http://nethserver.docs.nethesis.it/it/latest/accounts.html#admin-user-section>`_ del manuale di |parent_product|.
@@ -52,10 +56,10 @@ Per attivare l'utente seguire le indicazioni riportate in `questa pagina <http:/
 .. _ocs-features:
 
 Funzionalità
-============
+------------
 
 Inventario
-----------
+^^^^^^^^^^
 
 La feature principale di OCS Inventory è quella di raccogliere i dati relativi alle caratteristiche *hardware* e
 *software* del parco IT in cui viene inserito.
@@ -75,7 +79,7 @@ apparteneneti alla rete oggetto di inventario:
 
 
 IpDiscover
-----------
+^^^^^^^^^^
 
 OCS Inventory mette a disposizione una funzionalità di :dfn:`autodiscovery` utile per esplorare gli host presenti in rete.
 Il principio di funzionamento è particolare: richiede che il server abbia inventariato almeno un host della rete che verrà 
@@ -89,7 +93,7 @@ possibile forzare il sistema ad usare uno specifico host (si veda `la documentaz
 
 
 Plugins
--------
+^^^^^^^
 
 OCS Inventory contempla un nutrito numero di :dfn:`plugins`, dei veri e propri moduli aggiuntivi che è possibile implementare 
 sul core di inventorying per ampliarne le capacità.
@@ -98,7 +102,7 @@ Tutti i riferimenti sono disponibile nella `documentazione ufficiale <http://wik
 .. _ocs-plugin:
 
 Agent software
-==============
+--------------
 
 *OCS Inventory NG* lavora esclusivamente attraverso l'utilizzo di :dfn:`agent software`: le informazioni di inventario
 vengono raccolte dall'agent che provvede ad inviarle al server per popolare i database.

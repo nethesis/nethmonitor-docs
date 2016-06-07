@@ -4,8 +4,12 @@
 
 .. _probe-section:
 
+
+Sonde Curiosity
+===============
+
 Introduzione
-============
+------------
 
 Le :dfn:`sonde remote Curiosity` sono la soluzione ideale per gestire in modo semplice ed efficace il 
 monitoraggio di host remoti localizzati in sedi periferiche.
@@ -25,7 +29,7 @@ predisposte centralmente per abilitare il controllo dei nodi della rete remota.
 .. _probe-activation:
 
 Attivazione sonde
-=================
+-----------------
 
 Per poter essere utilizzate, le :index:`sonde remote` :index:`Curiosity` necessitano di essere attivate e 
 collegate ad una istanza di |product| attraverso una semplice procedura di abilitazione.
@@ -68,7 +72,7 @@ da *genitore*.
 .. _probe-management:
 
 Gestione sonde
-==============
+--------------
 
 Terminato il procedimento di registrazione ed abilitazione della sonda, la sua gestione sarà completamente
 demandata all'interfaccia :ref:`wizard-section`.
@@ -92,7 +96,7 @@ della sonda appena attivata.
 
 
 Definizone host monitorato tramite sonda
-========================================
+----------------------------------------
 
 Per definire un monitoraggio attraveso una sonda:
 
@@ -100,7 +104,7 @@ Per definire un monitoraggio attraveso una sonda:
 * si potrà definire direttamente un nuovo sistema dalla :index:`sezione Sistemi` del *Wizard*.
 
 Autodiscovery
--------------
+^^^^^^^^^^^^^
 
 La funzionalità di :index:`autodiscovery` presente nell'interfaccia *Wizard* consente di pilotare una scansione
 dei dispositivi presenti in una rete in cui opera una sonda *Curiosity*.
@@ -117,7 +121,7 @@ host tra quelle per il :index:`monitoraggio via sonda` e selezionare le :dfn:`cl
 
 
 Definizione diretta nuovo host dietro sonda
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Resta in ogni caso possibile definire manualmente un host da monitorare attraverso sonda remota inserendo
 tutti i necessari parametri richiesti nella finestra di :dfn:`Inserimento nuovo sistema`.
