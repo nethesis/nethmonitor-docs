@@ -142,7 +142,7 @@ Multisite
 ---------
 
 Adagios supporta la connessione a più backend allo scopo di mostrare più istanze di Nagios in un'unica interfaccia web. 
-Questo tipo di interfacciamento vale unicamente per le connessioni :dnf:`livestatus`, quindi solo per la visualizzazione 
+Questo tipo di interfacciamento vale unicamente per le connessioni :dfn:`livestatus`, quindi solo per la visualizzazione 
 e la raccolta dati, non per la configurazione e la modifica di oggetti.
 
 .. warning:: Al momento la feature è sperimentale.
