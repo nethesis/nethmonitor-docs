@@ -38,7 +38,7 @@ Accesso
 
 Per accedere all':dfn:`interfaccia web` di Adagios è sufficiente utilizzare il link presente nella sezione *Applicazioni* 
 della *Dashboard* di |parent_product|.
-E' altrimenti possibile accedere direttamente all'applicativo senza passare per il *server-manager* digitando nella barra
+E' altrimenti possibile accedere direttamente all'applicativo senza passare per il *server-manager* digitando nella barra 
 degli indirizzi ``https://a.b.c.d/adagios`` oppure ``https://server/adagios`` dove *a.b.c.d* e *server* sono 
 rispettivamente l'indirizzo IP ed il nome del server impostati in fase di installazione.
 
@@ -135,4 +135,36 @@ Wizard
 ^^^^^^
 
 Il menu :dfn:`Wizard` permette di accedere all'interfaccia del modulo :ref:`wizard-section`.
+
+.. _multisite-section:
+
+Multisite
+---------
+
+Adagios supporta la connessione a più backend allo scopo di mostrare più istanze di Nagios in un'unica interfaccia web. 
+Questo tipo di interfacciamento vale unicamente per le connessioni :dfn:`livestatus`, quindi solo per la visualizzazione 
+e la raccolta dati, non per la configurazione e la modifica di oggetti.
+
+.. warning:: Al momento la feature è sperimentale.
+
+
+Connessione ad una o più istanze remote
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adagios utilizza la variabile di configurazione *livestatus_path* per contattare il socket livestatus di una istanza remota.
+Se *livestatus_path* non viene fornito, Adagios adotta automaticamente le configurazioen contenute nel file *nagios.cfg*.
+
+.. note:: Di default Adagios utilizza la porta **6557** per le comunicazioni livestatus è perciò necessario sincerarsi che
+          i backend remoti siano raggiungibili su quella porta.
+
+Per indicare esplicitamente ad Adagios quali istanze remote contattare sarà sufficiente inserire un elenco separato da virgole
+nel campo "*Livestatus path*" presente nel menu impostazioni dell'intefraccia web, raggiungibile cliccado sull'icona a forma
+di ingranaggio presente in alto a destra e scegliendo la voce :dfn:`Settings`.
+Se ad esempio si volesse contattare le istanze di Adagios attive sui server *remoteserver.example.com* e *remoteserver2.example.com*
+la sintassi da utilizzare per valorizzare il campo :index:`Livestatus path` sarà la seguente: ::
+
+    /var/spool/nagios/cmd/livestatus,remoteserver.example.com:6557,remoteserver2.example.com:6557
+
+Una volta impelmentata la configurazione, nella barra di Adagios verrà attivata una nuova icona attraverso la quale sarà possibile
+abilitare e disabilitare con estrema facilità la visualizzazione degli host afferenti ai backend remoti.
 
