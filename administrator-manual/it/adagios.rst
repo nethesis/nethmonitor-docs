@@ -117,7 +117,7 @@ Configure
 ^^^^^^^^^
 
 Dal menu :dfn:`Configure` è possibile accedere ai vari aspetti del sistema più a basso livello: il pannello 
-consente di intervenire direttamente sui file di configurazione e tempalte che defibniscono host, servizi e 
+consente di intervenire direttamente sui file di configurazione e template che definiscono host, servizi e 
 check command di monitoraggio.
 
 .. warning:: Le modifiche effettuate attraverso questo pannello si ripercuotono trasveralmente su tutto l'ambiente
@@ -137,6 +137,7 @@ Wizard
 Il menu :dfn:`Wizard` permette di accedere all'interfaccia del modulo :ref:`wizard-section`.
 
 .. _multisite-section:
+
 
 
 Multisite
@@ -160,11 +161,12 @@ Se *livestatus_path* non viene fornito, Adagios adotta automaticamente le config
 Per indicare esplicitamente ad Adagios quali istanze remote contattare sarà sufficiente inserire un elenco separato da virgole
 nel campo "*Livestatus path*" presente nel menu impostazioni dell'intefraccia web, raggiungibile cliccado sull'icona a forma
 di ingranaggio presente in alto a destra e scegliendo la voce :dfn:`Settings`.
-Se ad esempio si volesse contattare le istanze di Adagios attive sui server *remoteserver.example.com* e 
-*remoteserver2.example.com*, la sintassi da utilizzare per valorizzare il campo :dfn:`Livestatus path` sarà la seguente: ::
+
+Se ad esempio si volesse contattare le istanze di Adagios attive sui server ``remoteserver.example.com`` e 
+``remoteserver2.example.com``, la sintassi da utilizzare per valorizzare il campo :dfn:`Livestatus path` sarà la seguente: ::
 
     /var/spool/nagios/cmd/livestatus,remoteserver.example.com:6557,remoteserver2.example.com:6557
 
-Una volta impelmentata la configurazione, nella barra di Adagios verrà attivata una nuova icona attraverso la quale sarà
-possibile abilitare e disabilitare con estrema facilità la visualizzazione degli host afferenti ai backend remoti.
+Una volta implementata la configurazione, nella barra di Adagios verrà attivata una nuova icona attraverso la quale sarà
+possibile abilitare e disabilitare con estrema facilità la visualizzazione degli oggetti afferenti ai backend remoti.
 
