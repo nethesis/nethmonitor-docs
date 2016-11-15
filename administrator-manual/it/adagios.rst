@@ -158,6 +158,11 @@ Se *livestatus_path* non viene fornito, Adagios adotta automaticamente le config
 .. note:: Di default Adagios utilizza la porta **6557** per le comunicazioni livestatus è perciò necessario sincerarsi che
           i backend remoti siano raggiungibili su quella porta.
 
+.. warning:: E' necessario ricordare che il :dfn:`servizio di rete` **nagios**, che viene installato su :dfn:`NethServer Enterprise` 
+             dai moduli di NethMonitor NG, di default accetta unicamente connessioni che provengono *dalla sua rete green* pertanto, 
+             per consentire ad una istanza *master* di raggiungere una istanza *slave*, è indispensabile aggiungere l'ip pubblico da 
+             cui genera traffico l'istanza *master* nel campo :dfn:`Consenti host` del servizio di rete *nagios* del server *slave*.
+
 Per indicare esplicitamente ad Adagios quali istanze remote contattare sarà sufficiente inserire un elenco separato da virgole
 nel campo "*Livestatus path*" presente nel menu impostazioni dell'intefraccia web, raggiungibile cliccado sull'icona a forma
 di ingranaggio presente in alto a destra e scegliendo la voce :dfn:`Settings`.
