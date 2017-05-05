@@ -15,7 +15,7 @@ innazitutto installare e registare |parent_product|.
 Per i requisiti minimi, la compatibilità hardware e le modalità di installazione e registrazione fare riferimento 
 alla documentazione specifica (si veda `qui per l'installazione <http://nethservice.docs.nethesis.it/it/latest/installation.html>`_  e `qui per la registrazione <http://nethservice.docs.nethesis.it/it/latest/registration.html>`_).
 
-.. warning:: NethMonitor NG è al momento disponibile **solo su piattaforma NethServer Enterprise 6.8**.
+.. warning:: NethMonitor NG è al momento disponibile **solo su piattaforma NethServer Enterprise 6.x**.
 
 .. _qualification_section:
 
