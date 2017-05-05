@@ -54,7 +54,7 @@ Funzionalità
 Sistemi
 ^^^^^^^
 
-La pagina dfn:`Sistemi` consente di definire e gestire i nodi monitorabili in :dfn:`modalità passiva agentfull` 
+La pagina :dfn:`Sistemi` consente di definire e gestire i nodi monitorabili in :dfn:`modalità passiva agentfull` 
 o tramite una :dfn:`sonda remote Cusiosity`.
 
 
