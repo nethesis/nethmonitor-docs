@@ -15,7 +15,9 @@ Documentazione |product|
 * :dfn:`Wizard`: lo strumento per la gestione ed il controllo delle sonde hardware e degli host monitorati passivamente
 * :dfn:`OCS Inventory`: lo strumento per la gestione dell'inventario IT degli asset aziendali
 
-NethMonitor è disponibile solo per i rivenditori che hanno stipulato il contratto relativo. 
+NethMonitor è disponibile solo per i rivenditori che hanno stipulato il contratto relativo.
+
+.. warning:: NethMonitor NG è al momento disponibile **solo su piattaforma NethServer Enterprise 6.x**.
 
 .. sidebar:: Contatti
 
